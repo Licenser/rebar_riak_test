@@ -1,0 +1,18 @@
+{variables, [{appid, "myapp"}]}.
+
+%% .
+{template, "riak_test.gitignore",    ".gitignore"}.
+{template, "riak_test.Makefile",     "Makefile"}.
+{template, "riak_test.md",           "README.md"}.
+{template, "riak_test.rebar.config", "rebar.config"}.
+
+
+{dir, "tests"}.
+{dir, "inceptions"}.
+{dir, "doc"}.
+%% ./src
+{dir, "src"}.
+
+{template, "riak_test.app.src",                     "src/{{appid}}.app.src"}.
+{template, "riak_test.erl",                         "src/{{appid}}.erl"}.
+

@@ -1,0 +1,13 @@
+deps
+ebin
+{{appid}}
+*.beam
+log
+.eunit
+.DS_Store
+out
+erl_crash.dump
+*~
+#*#
+doc/
+!doc/overview.edoc
