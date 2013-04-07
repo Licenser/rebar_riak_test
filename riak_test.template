@@ -8,7 +8,9 @@
 
 
 {dir, "tests"}.
-{dir, "inceptions"}.
+{dir, "intercepts"}.
+{template, "riak_test.intercept.hrl",                     "intercepts/intercept.hrl"}.
+{template, "riak_test.intercept.erl",                     "intercepts/intercept.erl"}.
 {dir, "doc"}.
 %% ./src
 {dir, "src"}.
